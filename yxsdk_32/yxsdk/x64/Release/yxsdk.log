@@ -1,0 +1,27 @@
+﻿生成启动时间为 2015/12/22 18:20:38。
+     1>项目“E:\opencv_config tool\opencv-64-tbb\samples\yxsdk\yxsdk\yxsdk.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“x64\Release\stereoVideoSDK.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"x64\Release\stereoVideoSDK.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc100.pdb" /Gd /TP /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"x64\Release\stereoVideoSDK.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc100.pdb" /Gd /TP /errorReport:prompt yxsdk.cpp
+         yxsdk.cpp
+     1>E:\workInfo\opencv\build\include\opencv2\core\utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\workInfo\opencv\build\include\opencv2/core/mat.hpp(1965): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\workInfo\opencv\build\include\opencv2/core/persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\workInfo\opencv\build\include\opencv2/core/mat.hpp(1965): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\workInfo\opencv\build\include\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\workInfo\opencv\build\include\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>yxsdk.cpp(234): warning C4244: “初始化”: 从“double”转换到“long”，可能丢失数据
+     1>yxsdk.cpp(242): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>yxsdk.cpp(243): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+       Link:
+         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\opencv_config tool\opencv-64-tbb\samples\yxsdk\x64\Release\stereoVideoSDK.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"E:\opencv_config tool\opencv-64-tbb\samples\yxsdk\dll" NVSource.lib PlayerSDK.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib E:\workInfo\opencv\sources\3rdparty\ippicv\unpack\ippicv_win\lib\intel64\ippicvmt.lib "E:\opencv_config tool\opencv-64-tbb\lib\Release\opencv_superres300.lib" "E:\opencv_config tool\opencv-64-tbb\lib\Release\opencv_cudafeatures2d300.lib" "E:\opencv_config tool\opencv-64-tbb\lib\Release\opencv_cudaoptflow300.lib" "E:\opencv_config tool\opencv-64-tbb\lib\Release\opencv_cudabgsegm300.lib" "E:\opencv_config tool\opencv-64-tbb\lib\Release\opencv_cudastereo300.lib" "E:\opencv_config tool\opencv-64-tbb\lib\Release\opencv_cudaobjdetect300.lib" "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\lib\x64\cuda.lib" "E:\opencv_config tool\opencv-64-tbb\lib\Release\opencv_cudacodec300.lib" "E:\opencv_config tool\opencv-64-tbb\lib\Release\opencv_cudawarping300.lib" "E:\opencv_config tool\opencv-64-tbb\lib\Release\opencv_cudalegacy300.lib" "E:\opencv_config tool\opencv-64-tbb\lib\Release\opencv_video300.lib" "E:\opencv_config tool\opencv-64-tbb\lib\Release\opencv_objdetect300.lib" "E:\opencv_config tool\opencv-64-tbb\lib\Release\opencv_calib3d300.lib" "E:\opencv_config tool\opencv-64-tbb\lib\Release\opencv_features2d300.lib" "E:\opencv_config tool\opencv-64-tbb\lib\Release\opencv_flann300.lib" "E:\opencv_config tool\opencv-64-tbb\lib\Release\opencv_highgui300.lib" "E:\opencv_config tool\opencv-64-tbb\lib\Release\opencv_videoio300.lib" "E:\opencv_config tool\opencv-64-tbb\lib\Release\opencv_imgcodecs300.lib" "E:\opencv_config tool\opencv-64-tbb\lib\Release\opencv_ml300.lib" "E:\opencv_config tool\opencv-64-tbb\lib\Release\opencv_cudaimgproc300.lib" "E:\opencv_config tool\opencv-64-tbb\lib\Release\opencv_cudafilters300.lib" "E:\opencv_config tool\opencv-64-tbb\lib\Release\opencv_imgproc300.lib" "E:\opencv_config tool\opencv-64-tbb\lib\Release\opencv_cudaarithm300.lib" "E:\opencv_config tool\opencv-64-tbb\lib\Release\opencv_core300.lib" "E:\opencv_config tool\opencv-64-tbb\lib\Release\opencv_cudev300.lib" "E:\opencv_config tool\opencv-64-tbb\lib\Release\opencv_hal300.lib" E:\workInfo\TBB\lib\intel64\vc10\tbb.lib /MANIFEST /ManifestFile:"x64\Release\stereoVideoSDK.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\opencv_config tool\opencv-64-tbb\samples\yxsdk\x64\Release\stereoVideoSDK.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\opencv_config tool\opencv-64-tbb\samples\yxsdk\x64\Release\stereoVideoSDK.lib" /MACHINE:X64 x64\Release\stdafx.obj
+         x64\Release\yxsdk.obj
+     1>LINK : fatal error LNK1181: 无法打开输入文件“C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\lib\x64\cuda.lib”
+     1>已完成生成项目“E:\opencv_config tool\opencv-64-tbb\samples\yxsdk\yxsdk\yxsdk.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:03.85

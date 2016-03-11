@@ -1,0 +1,38 @@
+﻿生成启动时间为 2015/12/21 17:21:05。
+     1>项目“E:\opencv_config tool\opencv-64-tbb\samples\yxsdk\yxsdk\yxsdk.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\stereoVideoSDK.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\stereoVideoSDK.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt yxsdk.cpp
+         yxsdk.cpp
+     1>e:\workinfo\opencv\build\include\opencv2\core\utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\workinfo\opencv\build\include\opencv2\core\mat.hpp(1965): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\workinfo\opencv\build\include\opencv2\core\persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\workinfo\opencv\build\include\opencv2\core\mat.hpp(1965): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\workinfo\opencv\build\include\opencv2\core\utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\workinfo\opencv\build\include\opencv2\core\utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\opencv_config tool\opencv-64-tbb\samples\yxsdk\yxsdk\yxsdk.cpp(236): warning C4244: “初始化”: 从“double”转换到“long”，可能丢失数据
+     1>e:\opencv_config tool\opencv-64-tbb\samples\yxsdk\yxsdk\yxsdk.cpp(244): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>e:\opencv_config tool\opencv-64-tbb\samples\yxsdk\yxsdk\yxsdk.cpp(245): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>e:\opencv_config tool\opencv-64-tbb\samples\yxsdk\yxsdk\yxsdk.cpp(163): warning C4715: “StreamPlayerCallback”: 不是所有的控件路径都返回值
+       ManifestResourceCompile:
+         所有输出均为最新。
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\opencv_config tool\opencv-64-tbb\samples\yxsdk\Debug\stereoVideoSDK.exe" /INCREMENTAL /NOLOGO /LIBPATH:"E:\opencv_config tool\opencv-64-tbb\samples\yxsdk\dll" PlayerSDK.lib NVSource.lib E:\workInfo\opencv\build\x86\vc12\lib\opencv_ts300d.lib E:\workInfo\opencv\build\x86\vc12\lib\opencv_world300d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\stereoVideoSDK.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\opencv_config tool\opencv-64-tbb\samples\yxsdk\Debug\stereoVideoSDK.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\opencv_config tool\opencv-64-tbb\samples\yxsdk\Debug\stereoVideoSDK.lib" /MACHINE:X86 Debug\stereoVideoSDK.exe.embed.manifest.res
+         Debug\stdafx.obj
+         Debug\yxsdk.obj
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\stereoVideoSDK.exe.embed.manifest" /manifest Debug\stereoVideoSDK.exe.intermediate.manifest
+         所有输出均为最新。
+       LinkEmbedManifest:
+         所有输出均为最新。
+         yxsdk.vcxproj -> E:\opencv_config tool\opencv-64-tbb\samples\yxsdk\Debug\stereoVideoSDK.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\stereoVideoSDK.unsuccessfulbuild”。
+         正在对“Debug\stereoVideoSDK.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\opencv_config tool\opencv-64-tbb\samples\yxsdk\yxsdk\yxsdk.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.63

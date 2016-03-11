@@ -1,0 +1,34 @@
+﻿生成启动时间为 2016/3/4 16:19:34。
+     1>项目“E:\yx_pyf\P1_无人机避障项目资料\yxsdk_32\yxsdk\yxsdk.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“Release\stereoVideoSDK-32Bit.lastbuildstate”。
+       InitializeBuildStatus:
+         正在创建“Release\stereoVideoSDK-32Bit.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Release\stereoVideoSDK-32Bit.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\stereoVideoSDK-32Bit.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt yxsdk.cpp
+         yxsdk.cpp
+     1>E:\workInfo\opencv\build\include\opencv2\core\utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\workInfo\opencv\build\include\opencv2/core/mat.hpp(1965): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\workInfo\opencv\build\include\opencv2/core/persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\workInfo\opencv\build\include\opencv2/core/mat.hpp(1965): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\workInfo\opencv\build\include\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\workInfo\opencv\build\include\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+       Link:
+         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\yx_pyf\P1_无人机避障项目资料\yxsdk_32\Release\stereoVideoSDK-32Bit.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:E:\workInfo\opencvCUDA32BIT\install\x86\vc10\bin\ /LIBPATH:E:\workInfo\opencvCUDA32BIT\install\x86\vc10\lib\ E:\workInfo\yxsdk_32\dll\NVSource.lib E:\workInfo\yxsdk_32\dll\PlayerSDK.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib opencv_video300.lib opencv_imgproc300.lib opencv_highgui300.lib opencv_core300.lib opencv_videoio300.lib opencv_videostab300.lib opencv_stitching300.lib opencv_superres300.lib opencv_ts300.lib opencv_objdetect300.lib opencv_shape300.lib opencv_photo300.lib opencv_hal300.lib opencv_flann300.lib opencv_features2d300.lib opencv_calib3d300.lib opencv_cudastereo300.lib opencv_imgcodecs300.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\stereoVideoSDK-32Bit.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\yx_pyf\P1_无人机避障项目资料\yxsdk_32\Release\stereoVideoSDK-32Bit.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\yx_pyf\P1_无人机避障项目资料\yxsdk_32\Release\stereoVideoSDK-32Bit.lib" /MACHINE:X86 Release\stdafx.obj
+         Release\yxsdk.obj
+         正在生成代码
+     1>e:\yx_pyf\p1_无人机避障项目资料\yxsdk_32\yxsdk\yxsdk.cpp(411): warning C4715: “StreamPlayerCallback”: 不是所有的控件路径都返回值
+         已完成代码的生成
+         yxsdk.vcxproj -> E:\yx_pyf\P1_无人机避障项目资料\yxsdk_32\Release\stereoVideoSDK-32Bit.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\yx_pyf\P1_无人机避障项目资料\yxsdk_32\Release\stereoVideoSDK-32Bit.exe;#1" /manifest "Release\stereoVideoSDK-32Bit.exe.intermediate.manifest"
+       FinalizeBuildStatus:
+         正在删除文件“Release\stereoVideoSDK-32Bit.unsuccessfulbuild”。
+         正在对“Release\stereoVideoSDK-32Bit.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\yx_pyf\P1_无人机避障项目资料\yxsdk_32\yxsdk\yxsdk.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.63
